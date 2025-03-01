@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default async function ProductDetails(
     {params}:
     {params: Promise<{ productId: string }>;}
@@ -5,5 +7,11 @@ export default async function ProductDetails(
 
     {
     const productId  = (await params).productId;
-    return <h1>Details about product {productId}</h1>;
+    return (
+    <>
+    <Link href="/">Home</Link>  
+    <h1>Details about product {productId}</h1>
+    </>
+    
+    );
     }
