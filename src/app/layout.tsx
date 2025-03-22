@@ -48,6 +48,7 @@ export default function RootLayout({
             <li style={{ marginRight: "1rem" }}><Link href="/about">About</Link></li>
             <li style={{ marginRight: "1rem" }}><Link href="/blog">Blog</Link></li>
             <li style={{ marginRight: "1rem" }}><Link href="/register">Register</Link></li>
+            <li style={{ marginRight: "1rem" }}><Link href="/complex-dashboard">Complex-Dashboard</Link></li>
             <li><Link href="/products">Products</Link></li>
           </ul>
         </header>
