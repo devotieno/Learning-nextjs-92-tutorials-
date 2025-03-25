@@ -1,15 +1,15 @@
 export const comments = [
   { 
     id: 1, 
-    text: "Hello, World!",
+    text: "first comment",
 },
   { 
     id: 2, 
-    text: "Hello, World!",
+    text: "second comment",
  },
     { 
         id: 3, 
-        text: "Hello, World!",
+        text: "third comment",
     },
     
     
